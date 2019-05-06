@@ -1,5 +1,9 @@
 package Q2_Add_Two_Numbers.Solution;
 
+import common.ListNode;
+
+import static common.Util.printList;
+
 public class Solution {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -24,35 +28,21 @@ public class Solution {
         return head.next;
     }
 
-    public static class ListNode {
-        public int val;
-        public ListNode next;
-
-        public ListNode(int x) {
-            val = x;
-        }
-    }
 
     public static void main(String[] args) {
-        Solution.ListNode l1 = new Solution.ListNode(2);
-        Solution.ListNode n1 = l1;
-        n1.next = new Solution.ListNode(4); n1 = n1.next;
-        n1.next = new Solution.ListNode(3); n1 = n1.next;
+        ListNode l1 = new ListNode(2);
+        ListNode n1 = l1;
+        n1.next = new ListNode(4); n1 = n1.next;
+        n1.next = new ListNode(3); n1 = n1.next;
 
-        Solution.ListNode l2 = new Solution.ListNode(5);
-        Solution.ListNode n2 = l2;
-        n2.next = new Solution.ListNode(6); n2 = n2.next;
-        n2.next = new Solution.ListNode(4); n2 = n2.next;
+        ListNode l2 = new ListNode(5);
+        ListNode n2 = l2;
+        n2.next = new ListNode(6); n2 = n2.next;
+        n2.next = new ListNode(4); n2 = n2.next;
 
         Solution solution = new Solution();
-        Solution.ListNode r = solution.addTwoNumbers(l1, l2);
+        ListNode r = solution.addTwoNumbers(l1, l2);
 
-        while (r != null) {
-            System.out.print(r.val);
-            if (r.next != null) {
-                System.out.print(" -> ");
-            }
-            r = r.next;
-        }
+        printList(r);
     }
 }

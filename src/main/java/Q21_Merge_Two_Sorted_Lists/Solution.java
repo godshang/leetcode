@@ -1,5 +1,9 @@
 package Q21_Merge_Two_Sorted_Lists;
 
+import common.ListNode;
+
+import static common.Util.printList;
+
 public class Solution {
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
@@ -28,28 +32,6 @@ public class Solution {
         l2.next.next = new ListNode(4);
 
         Solution solution = new Solution();
-        print(solution.mergeTwoLists(l1, l2));
-    }
-
-    private static void print(ListNode l) {
-        StringBuilder builder = new StringBuilder();
-        ListNode n = l;
-        if (n != null)
-            builder.append(n.val);
-        n = n.next;
-        while (n != null) {
-            builder.append("->").append(n.val);
-            n = n.next;
-        }
-        System.out.println(builder.toString());
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
+        printList(solution.mergeTwoLists(l1, l2));
     }
 }
