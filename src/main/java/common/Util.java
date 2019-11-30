@@ -2,17 +2,27 @@ package common;
 
 public class Util {
 
-    public static void printList(ListNode n) {
+    public static ListNode buildList(int[] array) {
+        ListNode head = new ListNode();
+        ListNode p = head;
+        for (int i = 0; i < array.length; i++) {
+            p.next = new ListNode(array[i]);
+            p = p.next;
+        }
+        return head.next;
+    }
+
+    public static void printList(ListNode node) {
         StringBuilder sb = new StringBuilder();
+        if (node != null) {
+            sb.append(node.val);
+        }
+        ListNode n = node.next;
         while (n != null) {
-            sb.append(n.val).append("->");
+            sb.append("->").append(n.val);
             n = n.next;
         }
-        if (sb.length() > 2) {
-            System.out.println(sb.substring(0, sb.length() - 2));
-        } else {
-            System.out.println(sb.toString());
-        }
+        System.out.println(sb.toString());
     }
 
     public static void printArray(int[] array) {
