@@ -1,4 +1,4 @@
 
 # LeetCode
 
-Java Solution for LeetCode.
+LeetCode Solution.
