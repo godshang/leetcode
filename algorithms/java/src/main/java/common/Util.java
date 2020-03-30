@@ -13,6 +13,7 @@ public class Util {
     }
 
     public static void printList(ListNode node) {
+        if (node == null) return;
         StringBuilder sb = new StringBuilder();
         if (node != null) {
             sb.append(node.val);
