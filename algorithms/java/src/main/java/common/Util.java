@@ -33,4 +33,17 @@ public class Util {
         }
         System.out.println(sb.toString());
     }
+
+    public static TreeNode buildTree(Integer[] nums) {
+        return buildTree(nums, 0);
+    }
+
+    private static TreeNode buildTree(Integer[] nums, int i) {
+        if (i >= nums.length) return null;
+        if (nums[i] == null) return null;
+        TreeNode root = new TreeNode(nums[i]);
+        root.left = buildTree(nums, 2 * i + 1);
+        root.right = buildTree(nums, 2 * i + 2);
+        return root;
+    }
 }
