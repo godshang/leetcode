@@ -7,20 +7,21 @@ import static common.Util.printList;
 public class Solution {
 
     public ListNode swapPairs(ListNode head) {
-        ListNode dummyHead = new ListNode(0);
-        dummyHead.next = head;
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
 
-        ListNode p = dummyHead;
-        while (p.next != null && p.next.next != null) {
-            ListNode node1 = p.next;
-            ListNode node2 = node1.next;
-            ListNode n = node2.next;
-            node2.next = node1;
-            node1.next = n;
-            p.next = node2;
-            p = node1;
+        ListNode prev = dummy;
+        while (prev.next != null && prev.next.next != null) {
+            ListNode first = prev.next;
+            ListNode second = first.next;
+
+            prev.next = second;
+            first.next = second.next;
+            second.next = first;
+
+            prev = first;
         }
-        return dummyHead.next;
+        return dummy.next;
     }
 
     public static void main(String[] args) {

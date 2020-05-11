@@ -2,6 +2,8 @@ package Q23_Merge_k_Sorted_Lists;
 
 import common.ListNode;
 
+import java.util.PriorityQueue;
+
 import static common.Util.printList;
 
 public class Solution {
