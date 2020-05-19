@@ -2,6 +2,18 @@ package common;
 
 public class Util {
 
+    // ====== Array Util ======
+
+    public static void printArray(int[] array) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < array.length; i++) {
+            sb.append(array[i]).append(" ");
+        }
+        System.out.println(sb.toString());
+    }
+
+    // ====== Linked list Util ======
+
     public static ListNode buildList(int[] array) {
         ListNode head = new ListNode();
         ListNode p = head;
@@ -12,13 +24,13 @@ public class Util {
         return head.next;
     }
 
-    public static void printList(ListNode node) {
-        if (node == null) return;
+    public static void printList(ListNode head) {
+        if (head == null) return;
         StringBuilder sb = new StringBuilder();
-        if (node != null) {
-            sb.append(node.val);
+        if (head != null) {
+            sb.append(head.val);
         }
-        ListNode n = node.next;
+        ListNode n = head.next;
         while (n != null) {
             sb.append("->").append(n.val);
             n = n.next;
@@ -26,13 +38,15 @@ public class Util {
         System.out.println(sb.toString());
     }
 
-    public static void printArray(int[] array) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < array.length; i++) {
-            sb.append(array[i]).append(" ");
+    public static ListNode findTail(ListNode head) {
+        if (head == null) return head;
+        while (head.next != null) {
+            head = head.next;
         }
-        System.out.println(sb.toString());
+        return head;
     }
+
+    // ====== Tree Util ======
 
     public static TreeNode buildTree(Integer[] nums) {
         return buildTree(nums, 0);
