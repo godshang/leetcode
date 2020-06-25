@@ -1,12 +1,30 @@
 package Q107_Binary_Tree_Level_Order_Traversal_II;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 import common.TreeNode;
 
 public class Solution {
-    
+
+    public List<List<Integer>> levelOrderBottom_II(TreeNode root) {
+        if (root == null) return Collections.emptyList();
+        List<List<Integer>> res = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            List<Integer> list = new ArrayList<>();
+            for (int i = 0; i < size; i++) {
+                TreeNode node = queue.poll();
+                list.add(node.val);
+                if (node.left != null) queue.offer(node.left);
+                if (node.right != null) queue.offer(node.right);
+            }
+            res.add(0, list);
+        }
+        return res;
+    }
+
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         if (root != null) {
@@ -37,6 +55,6 @@ public class Solution {
         r.right = new TreeNode(20);
         r.right.left = new TreeNode(15);
         r.right.right = new TreeNode(7);
-        System.out.println(solution.levelOrderBottom(r));
+        System.out.println(solution.levelOrderBottom_II(r));
     }
 }
