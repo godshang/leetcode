@@ -1,20 +1,27 @@
-package Q116_Populating_Next_Right_Pointers_in_Each_Node;
+package Q117_Populating_Next_Right_Pointers_in_Each_Node_II;
+
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Solution {
 
     public Node connect(Node root) {
         if (root == null) return null;
-        connect(root.left, root.right);
-        return root;
-    }
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            Node pre = null;
+            for (int i = 0; i < size; i++) {
+                Node cur = queue.poll();
+                if (pre != null) pre.next = cur;
+                pre = cur;
 
-    private void connect(Node left, Node right) {
-        if (left != null) {
-            left.next = right;
-            connect(left.left, left.right);
-            connect(left.right, right.left);
-            connect(right.left, right.right);
+                if (cur.left != null) queue.offer(cur.left);
+                if (cur.right != null) queue.offer(cur.right);
+            }
         }
+        return root;
     }
 
     public static void main(String[] args) {
