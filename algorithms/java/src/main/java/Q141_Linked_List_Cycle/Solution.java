@@ -1,7 +1,6 @@
 package Q141_Linked_List_Cycle;
 
 import common.ListNode;
-import sun.plugin.dom.exception.HierarchyRequestException;
 
 public class Solution {
 

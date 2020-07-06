@@ -2,7 +2,6 @@ package Q114_Flatten_Binary_Tree_to_Linked_List;
 
 import common.BTreePrinter;
 import common.TreeNode;
-import sun.reflect.generics.tree.Tree;
 
 public class Solution {
 
