@@ -1,5 +1,7 @@
 package Q5_Longest_Palindromic_Substring;
 
+import java.util.Arrays;
+
 public class Solution {
 
     public String longestPalindrome(String s) {
@@ -26,8 +28,34 @@ public class Solution {
         return s.substring(left + 1, right);
     }
 
+    public String longestPalindrome_2(String s) {
+        if (s == null || s.length() < 2) return s;
+
+        int n = s.length();
+        int[][] dp = new int[n][n];
+
+        String ans = "";
+        for (int l = 0; l < n; l++) {
+            for (int i = 0; i + 1 < n; i++) {
+                int j = i + l;
+                if (j >= n) 
+                    break;
+                if (l == 0)
+                    dp[i][j] = 1;
+                else if (l == 1)
+                    dp[i][j] = (s.charAt(i) == s.charAt(j)) ? 1 : 0;
+                else
+                    dp[i][j] = (dp[i + 1][j - 1] == 1 && s.charAt(i) == s.charAt(j)) ? 1 : 0;
+
+                if (dp[i][j] == 1 && l + 1 > ans.length())
+                    ans = s.substring(i, j + 1);
+            }
+        }
+        return ans;
+    }
+
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.longestPalindrome("cbbd"));
+        System.out.println(solution.longestPalindrome_2("babad"));
     }
 }
