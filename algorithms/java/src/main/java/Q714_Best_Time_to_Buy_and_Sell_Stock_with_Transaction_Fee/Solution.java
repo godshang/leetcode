@@ -1,4 +1,4 @@
-package Q122_Best_Time_to_Buy_and_Sell_Stock_II;
+package Q714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee;
 
 public class Solution {
 
@@ -17,19 +17,24 @@ public class Solution {
      * dp[i][0][1] = -infinity
      * 解释：不允许交易的情况下，是不可能持有股票的，用负无穷表示这种不可能。
      */
-    public int maxProfit(int[] prices) {
+    public int maxProfit(int[] prices, int fee) {
         if (prices == null || prices.length == 0) return 0;
-        int dp_i_0 = 0, dp_i_1 = Integer.MIN_VALUE;
-        for (int i = 0; i < prices.length; i++) {
-            int temp = dp_i_0;
-            dp_i_0 = Math.max(dp_i_0, dp_i_1 + prices[i]);
-            dp_i_1 = Math.max(dp_i_1, temp - prices[i]);
+        int n = prices.length;
+        int[][] dp = new int[n][2];
+        for (int i = 0; i < n; i++) {
+            if (i - 1 == -1) {
+                dp[i][0] = 0;
+                dp[i][1] = -prices[i];
+                continue;
+            }
+            dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] + prices[i] - fee);
+            dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] - prices[i]);
         }
-        return dp_i_0;
+        return dp[n - 1][0];
     }
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.maxProfit(new int[] {7,1,5,3,6,4}));
+        System.out.println(solution.maxProfit(new int[]{1, 3, 2, 8, 4, 9}, 2));
     }
 }
