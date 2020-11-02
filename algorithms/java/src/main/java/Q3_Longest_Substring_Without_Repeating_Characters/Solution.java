@@ -6,23 +6,30 @@ import java.util.Map;
 public class Solution {
 
     public int lengthOfLongestSubstring(String s) {
-
-        Map<Character, Integer> map = new HashMap<Character, Integer>();
-        for (int i = 0; i < s.length(); i++) {
-            map.put(s.charAt(i), -1);
-        }
-
-        int max = 0, pre = -1;
-        for (int i = 0; i < s.length(); i++) {
-            pre = Math.max(pre, map.get(s.charAt(i)));
-            max = Math.max(max, i - pre);
-            map.put(s.charAt(i), i);
+        Map<Character, Integer> window = new HashMap<>();
+        
+        int left = 0, right = 0;
+        int max = 0;
+        while (right < s.length()) {
+            char c = s.charAt(right);
+            right++;
+            
+            window.put(c, window.getOrDefault(c, 0) + 1);
+            
+            while (window.get(c) > 1) {
+                char d = s.charAt(left);
+                left++;
+                window.put(d, window.get(d) - 1);
+            }
+            max = Math.max(max, right - left);
         }
         return max;
     }
 
     public static void main(String[] args) {
         Solution solution = new Solution();
+        System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(solution.lengthOfLongestSubstring("bbbbb"));
         System.out.println(solution.lengthOfLongestSubstring("pwwkew"));
     }
 }
