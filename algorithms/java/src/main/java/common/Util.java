@@ -11,6 +11,21 @@ public class Util {
         }
         System.out.println(sb.toString());
     }
+    
+    public static void printArray(int[][] matrix) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[").append("\n");
+        for (int i = 0; i < matrix.length; i++) {
+            sb.append("\t[");
+            for (int j = 0; j < matrix[i].length; j++) {
+                sb.append(matrix[i][j]).append(",");
+            }
+            sb.deleteCharAt(sb.length() - 1);
+            sb.append("]").append("\n");
+        }
+        sb.append("]");
+        System.out.println(sb.toString());
+    }
 
     // ====== Linked list Util ======
 
