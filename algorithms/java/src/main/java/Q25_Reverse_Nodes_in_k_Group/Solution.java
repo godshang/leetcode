@@ -5,6 +5,31 @@ import common.Util;
 
 public class Solution {
 
+    public ListNode reverseKGroup_recursive(ListNode head, int k) {
+        if (head == null) return null;
+        ListNode a = head, b = head;
+        for (int i = 0; i < k; i++) {
+            if (b == null) return head;
+            b = b.next;
+        }
+        
+        ListNode newHead = reverse(a, b);
+        a.next = reverseKGroup_recursive(b, k);
+        return newHead;
+    }
+    
+    // [a, b)
+    private ListNode reverse(ListNode a, ListNode b) {
+        ListNode pre = null, current = a;
+        while (current != b) {
+            ListNode next = current.next;
+            current.next = pre;
+            pre = current;
+            current = next;
+        }
+        return pre;
+    }
+    
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode dummy = new ListNode();
         dummy.next = head;
@@ -36,6 +61,6 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        Util.printList(solution.reverseKGroup(Util.buildList(new int[]{1, 2, 3, 4, 5}), 2));
+        Util.printList(solution.reverseKGroup_recursive(Util.buildList(new int[]{1, 2, 3, 4, 5}), 2));
     }
 }

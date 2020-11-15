@@ -23,9 +23,35 @@ public class Solution {
         return root;
     }
 
+    public TreeNode buildTree_2(int[] preorder, int[] inorder) {
+        if (preorder.length == 0 || inorder.length == 0) return null;
+        return build(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1);
+    }
+
+    private TreeNode build(int[] preorder, int preStart, int preEnd, int[] inorder, int inStart, int inEnd) {
+        if (preStart > preEnd) 
+            return null;
+        
+        int rootVal = preorder[preStart];
+
+        int index = -1;
+        for (int i = inStart; i <= inEnd; i++) {
+            if (inorder[i] == rootVal) {
+                index = i;
+                break;
+            }
+        }
+
+        TreeNode root = new TreeNode(rootVal);
+        int leftSize = index - inStart;
+        root.left = build(preorder, preStart + 1, preStart + leftSize, inorder, inStart, index - 1);
+        root.right = build(preorder, preStart + leftSize + 1, preEnd, inorder, index + 1, inEnd);
+        return root;
+    }
+
     public static void main(String[] args) {
         Solution solution = new Solution();
-        TreeNode root = solution.buildTree(new int[]{3, 9, 20, 15, 7}, new int[]{9, 3, 15, 20, 7});
+        TreeNode root = solution.buildTree_2(new int[]{3, 9, 20, 15, 7}, new int[]{9, 3, 15, 20, 7});
         BTreePrinter.printNode(root);
     }
 }

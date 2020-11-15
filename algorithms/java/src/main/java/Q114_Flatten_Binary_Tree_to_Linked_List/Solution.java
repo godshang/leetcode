@@ -23,6 +23,23 @@ public class Solution {
             }
         }
     }
+    
+    public void flatten_2(TreeNode root) {
+        if (root == null) return;
+        
+        flatten_2(root.left);
+        flatten_2(root.right);
+        
+        TreeNode left = root.left, right = root.right;
+        root.left = null;
+        root.right = left;
+        
+        TreeNode p = root;
+        while (p.right != null) {
+            p = p.right;
+        }
+        p.right = right;
+    }
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
@@ -33,7 +50,7 @@ public class Solution {
         root.right.right = new TreeNode(6);
 
         Solution solution = new Solution();
-        solution.flatten(root);
+        solution.flatten_2(root);
         BTreePrinter.printNode(root);
     }
 }
