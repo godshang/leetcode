@@ -16,10 +16,10 @@ public class UF {
         }
     }
     
-    public void union(int p, int q) {
+    public boolean union(int p, int q) {
         int rootP = find(p);
         int rootQ = find(q);
-        if (rootP == rootQ) return;
+        if (rootP == rootQ) return false;
         
         if (size[rootP] > size[rootQ]) {
             parent[rootQ] = rootP;
@@ -29,6 +29,7 @@ public class UF {
             size[rootQ] += size[rootP];
         }
         count--;
+        return true;
     }
     
     public boolean connected(int p, int q) {
