@@ -1,8 +1,10 @@
 package common;
 
+import java.util.List;
+
 public class Util {
 
-    // ====== Array Util ======
+    // ====== Print Util ======
 
     public static void printArray(double[] array) {
         StringBuilder sb = new StringBuilder();
@@ -11,7 +13,7 @@ public class Util {
         }
         System.out.println(sb.toString());
     }
-    
+
     public static void printArray(int[] array) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < array.length; i++) {
@@ -19,7 +21,7 @@ public class Util {
         }
         System.out.println(sb.toString());
     }
-    
+
     public static void printArray(int[][] matrix) {
         StringBuilder sb = new StringBuilder();
         sb.append("[").append("\n");
@@ -27,6 +29,21 @@ public class Util {
             sb.append("\t[");
             for (int j = 0; j < matrix[i].length; j++) {
                 sb.append(matrix[i][j]).append(",");
+            }
+            sb.deleteCharAt(sb.length() - 1);
+            sb.append("]").append("\n");
+        }
+        sb.append("]");
+        System.out.println(sb.toString());
+    }
+
+    public static <T> void printList(List<List<T>> list) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[").append("\n");
+        for (int i = 0; i < list.size(); i++) {
+            sb.append("\t[");
+            for (int j = 0; j < list.get(i).size(); j++) {
+                sb.append(list.get(i).get(j)).append(",");
             }
             sb.deleteCharAt(sb.length() - 1);
             sb.append("]").append("\n");
