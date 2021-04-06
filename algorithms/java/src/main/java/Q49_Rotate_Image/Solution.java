@@ -25,6 +25,6 @@ public class Solution {
                 {7, 8, 9}
         };
         solution.rotate(matrix);
-        Util.printArray(matrix);
+        Util.printMatrix(matrix);
     }
 }

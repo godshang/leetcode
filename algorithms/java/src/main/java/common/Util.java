@@ -22,7 +22,7 @@ public class Util {
         System.out.println(sb.toString());
     }
 
-    public static void printArray(int[][] matrix) {
+    public static void printMatrix(int[][] matrix) {
         StringBuilder sb = new StringBuilder();
         sb.append("[").append("\n");
         for (int i = 0; i < matrix.length; i++) {

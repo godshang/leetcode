@@ -27,6 +27,6 @@ public class Solution {
         Solution solution = new Solution();
         int[][] A = {{0, 2}, {5, 10}, {13, 23}, {24, 25}};
         int[][] B = {{1, 5}, {8, 12}, {15, 24}, {25, 26}};
-        Util.printArray(solution.intervalIntersection(A, B));
+        Util.printMatrix(solution.intervalIntersection(A, B));
     }
 }

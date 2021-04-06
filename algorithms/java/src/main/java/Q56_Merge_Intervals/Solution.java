@@ -33,6 +33,6 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
-        Util.printArray(solution.merge(intervals));
+        Util.printMatrix(solution.merge(intervals));
     }
 }

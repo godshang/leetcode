@@ -51,6 +51,6 @@ public class Solution {
                 {1, 1, 1}
         };
         solution.setZeroes(matrix);
-        Util.printArray(matrix);
+        Util.printMatrix(matrix);
     }
 }
