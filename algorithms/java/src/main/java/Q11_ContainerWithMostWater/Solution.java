@@ -1,4 +1,4 @@
-package Q11_ContainerWithMostWater;
+package q11_containerwithmostwater;
 
 public class Solution {
 

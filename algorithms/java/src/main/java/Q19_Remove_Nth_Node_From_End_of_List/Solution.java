@@ -1,4 +1,4 @@
-package Q19_Remove_Nth_Node_From_End_of_List;
+package q19_remove_nth_node_from_end_of_list;
 
 import common.ListNode;
 

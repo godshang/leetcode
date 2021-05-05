@@ -1,4 +1,4 @@
-package Q139_Word_Break;
+package q139_word_break;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package Q1019_Next_Greater_Node_in_Linked_List;
+package q1019_next_greater_node_in_linked_list;
 
 import common.ListNode;
 import common.Util;

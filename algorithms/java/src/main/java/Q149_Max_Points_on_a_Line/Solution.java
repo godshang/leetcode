@@ -1,4 +1,4 @@
-package Q149_Max_Points_on_a_Line;
+package q149_max_points_on_a_line;
 
 import java.util.Arrays;
 import java.util.LinkedList;

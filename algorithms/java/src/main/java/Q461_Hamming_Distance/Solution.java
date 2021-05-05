@@ -1,4 +1,4 @@
-package Q461_Hamming_Distance;
+package q461_hamming_distance;
 
 public class Solution {
 

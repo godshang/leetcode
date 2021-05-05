@@ -1,4 +1,4 @@
-package Q17_Letter_Combinations_of_a_Phone_Number;
+package q17_letter_combinations_of_a_phone_number;
 
 import java.util.*;
 

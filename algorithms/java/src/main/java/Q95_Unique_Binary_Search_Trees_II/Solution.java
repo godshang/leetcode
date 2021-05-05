@@ -1,4 +1,4 @@
-package Q95_Unique_Binary_Search_Trees_II;
+package q95_unique_binary_search_trees_ii;
 
 import common.BTreePrinter;
 import common.TreeNode;

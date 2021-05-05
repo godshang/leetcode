@@ -1,4 +1,4 @@
-package Q111_Minimum_Depth_of_Binary_Tree;
+package q111_minimum_depth_of_binary_tree;
 
 import common.TreeNode;
 

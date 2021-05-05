@@ -1,4 +1,4 @@
-package Q25_Reverse_Nodes_in_k_Group;
+package q25_reverse_nodes_in_k_group;
 
 import common.ListNode;
 import common.Util;

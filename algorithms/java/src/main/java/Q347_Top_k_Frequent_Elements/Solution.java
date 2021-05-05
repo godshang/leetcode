@@ -1,4 +1,4 @@
-package Q347_Top_k_Frequent_Elements;
+package q347_top_k_frequent_elements;
 
 import common.Util;
 

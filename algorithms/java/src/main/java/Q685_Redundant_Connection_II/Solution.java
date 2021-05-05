@@ -1,4 +1,4 @@
-package Q685_Redundant_Connection_II;
+package q685_redundant_connection_ii;
 
 import common.UF;
 import common.Util;

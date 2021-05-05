@@ -1,4 +1,4 @@
-package Q234_Palindrome_Linked_List;
+package q234_palindrome_linked_list;
 
 import common.ListNode;
 import common.Util;

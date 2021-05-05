@@ -1,4 +1,4 @@
-package Q202_Happy_Number;
+package q202_happy_number;
 
 import java.util.HashSet;
 import java.util.Set;

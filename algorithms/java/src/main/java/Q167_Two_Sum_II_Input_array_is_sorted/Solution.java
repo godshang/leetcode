@@ -1,4 +1,4 @@
-package Q167_Two_Sum_II_Input_array_is_sorted;
+package q167_two_sum_ii_input_array_is_sorted;
 
 import common.Util;
 

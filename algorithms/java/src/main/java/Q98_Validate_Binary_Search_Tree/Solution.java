@@ -1,4 +1,4 @@
-package Q98_Validate_Binary_Search_Tree;
+package q98_validate_binary_search_tree;
 
 import common.TreeNode;
 import common.Util;

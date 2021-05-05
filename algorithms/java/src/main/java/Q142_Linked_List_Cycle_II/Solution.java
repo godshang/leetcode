@@ -1,4 +1,4 @@
-package Q142_Linked_List_Cycle_II;
+package q142_linked_list_cycle_ii;
 
 import common.ListNode;
 import common.Util;

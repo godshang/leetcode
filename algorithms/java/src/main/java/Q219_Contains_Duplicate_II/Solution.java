@@ -1,4 +1,4 @@
-package Q219_Contains_Duplicate_II;
+package q219_contains_duplicate_ii;
 
 import java.util.HashMap;
 import java.util.Map;

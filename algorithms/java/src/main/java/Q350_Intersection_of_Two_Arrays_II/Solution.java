@@ -1,4 +1,4 @@
-package Q350_Intersection_of_Two_Arrays_II;
+package q350_intersection_of_two_arrays_ii;
 
 import common.Util;
 

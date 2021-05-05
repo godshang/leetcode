@@ -1,4 +1,4 @@
-package Q654_Maximum_Binary_Tree;
+package q654_maximum_binary_tree;
 
 import common.BTreePrinter;
 import common.TreeNode;

@@ -1,4 +1,4 @@
-package Q96_Unique_Binary_Search_Trees;
+package q96_unique_binary_search_trees;
 
 public class Solution {
 

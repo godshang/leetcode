@@ -1,4 +1,4 @@
-package Q217_Contains_Duplicate;
+package q217_contains_duplicate;
 
 import java.util.HashSet;
 import java.util.Set;

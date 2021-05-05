@@ -1,4 +1,4 @@
-package Q1109_Corporate_Flight_Bookings;
+package q1109_corporate_flight_bookings;
 
 import common.Difference;
 import common.Util;

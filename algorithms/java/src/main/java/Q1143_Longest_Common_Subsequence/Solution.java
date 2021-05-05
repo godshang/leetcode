@@ -1,4 +1,4 @@
-package Q1143_Longest_Common_Subsequence;
+package q1143_longest_common_subsequence;
 
 public class Solution {
 

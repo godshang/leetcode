@@ -1,4 +1,4 @@
-package Q652_Find_Duplicate_Ssubtrees;
+package q652_find_duplicate_ssubtrees;
 
 import common.BTreePrinter;
 import common.TreeNode;

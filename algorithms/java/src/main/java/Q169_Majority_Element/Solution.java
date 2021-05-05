@@ -1,4 +1,4 @@
-package Q169_Majority_Element;
+package q169_majority_element;
 
 public class Solution {
 

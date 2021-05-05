@@ -1,4 +1,4 @@
-package Q27_Remove_Element;
+package q27_remove_element;
 
 public class Solution {
 

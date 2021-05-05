@@ -1,4 +1,4 @@
-package Q230_kth_Smallest_Element_in_a_BST;
+package q230_kth_smallest_element_in_a_bst;
 
 import common.TreeNode;
 

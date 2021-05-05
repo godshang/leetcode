@@ -1,4 +1,4 @@
-package Q6_ZigZag_Conversion;
+package q6_zigzag_conversion;
 
 public class Solution {
 

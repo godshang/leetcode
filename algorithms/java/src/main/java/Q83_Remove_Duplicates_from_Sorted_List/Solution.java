@@ -1,4 +1,4 @@
-package Q83_Remove_Duplicates_from_Sorted_List;
+package q83_remove_duplicates_from_sorted_list;
 
 import common.ListNode;
 import common.Util;

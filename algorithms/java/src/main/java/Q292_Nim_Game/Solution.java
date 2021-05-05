@@ -1,4 +1,4 @@
-package Q292_Nim_Game;
+package q292_nim_game;
 
 public class Solution {
 

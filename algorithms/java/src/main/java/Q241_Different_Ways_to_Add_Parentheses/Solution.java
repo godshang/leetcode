@@ -1,4 +1,4 @@
-package Q241_Different_Ways_to_Add_Parentheses;
+package q241_different_ways_to_add_parentheses;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Q567_Permutation_in_String;
+package q567_permutation_in_string;
 
 import java.util.HashMap;
 import java.util.Map;

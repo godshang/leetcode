@@ -1,4 +1,4 @@
-package Q206_Reverse_Linked_List;
+package q206_reverse_linked_list;
 
 import common.ListNode;
 import common.Util;

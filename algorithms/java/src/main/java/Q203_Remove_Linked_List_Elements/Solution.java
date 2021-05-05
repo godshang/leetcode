@@ -1,4 +1,4 @@
-package Q203_Remove_Linked_List_Elements;
+package q203_remove_linked_list_elements;
 
 import common.ListNode;
 import common.Util;

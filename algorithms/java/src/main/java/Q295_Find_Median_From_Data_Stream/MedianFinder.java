@@ -1,4 +1,4 @@
-package Q295_Find_Median_From_Data_Stream;
+package q295_find_median_from_data_stream;
 
 import java.util.PriorityQueue;
 

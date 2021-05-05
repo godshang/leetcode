@@ -1,4 +1,4 @@
-package Q239_Sliding_Window_Maximum;
+package q239_sliding_window_maximum;
 
 import java.util.LinkedList;
 

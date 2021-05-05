@@ -1,4 +1,4 @@
-package Q721_Accounts_Merge;
+package q721_accounts_merge;
 
 import java.util.*;
 

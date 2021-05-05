@@ -1,4 +1,4 @@
-package Q404_Sum_of_Left_Leaves;
+package q404_sum_of_left_leaves;
 
 import common.TreeNode;
 

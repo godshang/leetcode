@@ -1,4 +1,4 @@
-package Q409_Longest_Palindrome;
+package q409_longest_palindrome;
 
 public class Solution {
 

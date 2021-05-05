@@ -1,4 +1,4 @@
-package Q354_Russian_Doll_Envelopes;
+package q354_russian_doll_envelopes;
 
 import java.awt.*;
 import java.util.Arrays;

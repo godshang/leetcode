@@ -1,4 +1,4 @@
-package Q4_Median_of_Two_Sorted_Arrays;
+package q4_median_of_two_sorted_arrays;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package Q450_Delete_Node_in_a_Bst;
+package q450_delete_node_in_a_bst;
 
 import common.BTreePrinter;
 import common.TreeNode;

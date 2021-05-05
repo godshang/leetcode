@@ -1,4 +1,4 @@
-package Q58_Length_of_Last_Word;
+package q58_length_of_last_word;
 
 public class Solution {
 

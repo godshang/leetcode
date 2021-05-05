@@ -1,4 +1,4 @@
-package Q69_Sqrt;
+package q69_sqrt;
 
 public class Solution {
 

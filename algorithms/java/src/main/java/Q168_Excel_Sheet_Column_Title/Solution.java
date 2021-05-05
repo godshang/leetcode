@@ -1,4 +1,4 @@
-package Q168_Excel_Sheet_Column_Title;
+package q168_excel_sheet_column_title;
 
 public class Solution {
 

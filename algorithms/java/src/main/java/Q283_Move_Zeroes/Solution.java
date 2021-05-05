@@ -1,4 +1,4 @@
-package Q283_Move_Zeroes;
+package q283_move_zeroes;
 
 import common.Util;
 

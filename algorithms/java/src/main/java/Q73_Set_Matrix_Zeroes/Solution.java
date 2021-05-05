@@ -1,4 +1,4 @@
-package Q73_Set_Matrix_Zeroes;
+package q73_set_matrix_zeroes;
 
 import common.Util;
 

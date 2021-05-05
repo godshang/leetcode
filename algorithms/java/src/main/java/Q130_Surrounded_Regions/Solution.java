@@ -1,4 +1,4 @@
-package Q130_Surrounded_Regions;
+package q130_surrounded_regions;
 
 import common.UF;
 

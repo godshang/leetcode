@@ -1,4 +1,4 @@
-package Q121_Best_Time_to_Buy_and_Sell_Stock;
+package q121_best_time_to_buy_and_sell_stock;
 
 public class Solution {
 

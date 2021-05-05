@@ -1,4 +1,4 @@
-package Q37_Sudoku_Solver;
+package q37_sudoku_solver;
 
 import common.Util;
 

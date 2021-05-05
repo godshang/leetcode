@@ -1,4 +1,4 @@
-package Q26_Remove_Duplicates_From_Sorted_Array;
+package q26_remove_duplicates_from_sorted_array;
 
 import common.Util;
 

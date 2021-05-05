@@ -1,4 +1,4 @@
-package Q134_Gas_Station;
+package q134_gas_station;
 
 public class Solution {
 

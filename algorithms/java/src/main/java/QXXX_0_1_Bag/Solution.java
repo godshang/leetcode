@@ -1,4 +1,4 @@
-package QXXX_0_1_Bag;
+package qxxx_0_1_bag;
 
 public class Solution {
 

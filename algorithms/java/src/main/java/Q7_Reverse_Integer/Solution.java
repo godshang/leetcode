@@ -1,4 +1,4 @@
-package Q7_Reverse_Integer;
+package q7_reverse_integer;
 
 public class Solution {
 

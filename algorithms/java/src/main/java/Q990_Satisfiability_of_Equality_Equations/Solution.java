@@ -1,4 +1,4 @@
-package Q990_Satisfiability_of_Equality_Equations;
+package q990_satisfiability_of_equality_equations;
 
 import common.UF;
 

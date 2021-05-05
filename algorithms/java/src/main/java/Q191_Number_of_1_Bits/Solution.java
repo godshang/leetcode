@@ -1,4 +1,4 @@
-package Q191_Number_of_1_Bits;
+package q191_number_of_1_bits;
 
 public class Solution {
 

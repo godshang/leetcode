@@ -1,4 +1,4 @@
-package Q10_Regular_Expression_Matching;
+package q10_regular_expression_matching;
 
 import java.util.HashMap;
 import java.util.Map;

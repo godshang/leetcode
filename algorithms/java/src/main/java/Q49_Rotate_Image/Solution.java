@@ -1,4 +1,4 @@
-package Q49_Rotate_Image;
+package q49_rotate_image;
 
 import common.Util;
 

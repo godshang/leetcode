@@ -1,4 +1,4 @@
-package Q77_Combinations;
+package q77_combinations;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

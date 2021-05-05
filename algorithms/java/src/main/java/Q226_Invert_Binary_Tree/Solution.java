@@ -1,4 +1,4 @@
-package Q226_Invert_Binary_Tree;
+package q226_invert_binary_tree;
 
 import common.BTreePrinter;
 import common.TreeNode;

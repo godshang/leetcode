@@ -1,4 +1,4 @@
-package Q127_Word_Ladder;
+package q127_word_ladder;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package Q516_Longest_Palindromic_Subsequence;
+package q516_longest_palindromic_subsequence;
 
 public class Solution {
 

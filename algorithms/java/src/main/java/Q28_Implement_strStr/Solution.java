@@ -1,4 +1,4 @@
-package Q28_Implement_strStr;
+package q28_implement_strstr;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package Q146_LRU_Cache;
+package q146_lru_cache;
 
 import java.util.HashMap;
 import java.util.Map;

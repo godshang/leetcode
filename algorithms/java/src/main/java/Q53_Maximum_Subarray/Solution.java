@@ -1,4 +1,4 @@
-package Q53_Maximum_Subarray;
+package q53_maximum_subarray;
 
 public class Solution {
 

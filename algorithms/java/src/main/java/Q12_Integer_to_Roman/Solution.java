@@ -1,4 +1,4 @@
-package Q12_Integer_to_Roman;
+package q12_integer_to_roman;
 
 public class Solution {
 

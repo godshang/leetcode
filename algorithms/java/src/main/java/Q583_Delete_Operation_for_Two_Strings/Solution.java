@@ -1,4 +1,4 @@
-package Q583_Delete_Operation_for_Two_Strings;
+package q583_delete_operation_for_two_strings;
 
 public class Solution {
 

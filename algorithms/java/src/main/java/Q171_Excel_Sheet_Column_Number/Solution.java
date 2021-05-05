@@ -1,4 +1,4 @@
-package Q171_Excel_Sheet_Column_Number;
+package q171_excel_sheet_column_number;
 
 public class Solution {
 

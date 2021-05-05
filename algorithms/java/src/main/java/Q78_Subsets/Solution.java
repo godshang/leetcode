@@ -1,4 +1,4 @@
-package Q78_Subsets;
+package q78_subsets;
 
 import java.util.ArrayList;
 import java.util.Collections;

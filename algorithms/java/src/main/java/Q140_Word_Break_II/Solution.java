@@ -1,4 +1,4 @@
-package Q140_Word_Break_II;
+package q140_word_break_ii;
 
 import java.util.*;
 import java.util.stream.Collectors;

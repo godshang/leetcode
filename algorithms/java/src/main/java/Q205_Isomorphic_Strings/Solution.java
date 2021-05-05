@@ -1,4 +1,4 @@
-package Q205_Isomorphic_Strings;
+package q205_isomorphic_strings;
 
 import java.util.HashMap;
 import java.util.Map;

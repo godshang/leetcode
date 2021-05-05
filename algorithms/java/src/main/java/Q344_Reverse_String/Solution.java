@@ -1,4 +1,4 @@
-package Q344_Reverse_String;
+package q344_reverse_string;
 
 public class Solution {
 

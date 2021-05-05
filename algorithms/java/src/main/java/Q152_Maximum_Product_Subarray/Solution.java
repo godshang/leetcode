@@ -1,4 +1,4 @@
-package Q152_Maximum_Product_Subarray;
+package q152_maximum_product_subarray;
 
 public class Solution {
 

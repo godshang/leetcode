@@ -1,4 +1,4 @@
-package Q112_Path_Sum;
+package q112_path_sum;
 
 import common.TreeNode;
 

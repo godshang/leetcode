@@ -1,4 +1,4 @@
-package Q460_LFU_Cache;
+package q460_lfu_cache;
 
 public class Solution {
 

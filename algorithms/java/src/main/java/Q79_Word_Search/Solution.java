@@ -1,4 +1,4 @@
-package Q79_Word_Search;
+package q79_word_search;
 
 public class Solution {
 

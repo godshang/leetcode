@@ -1,4 +1,4 @@
-package Q257_Binary_Tree_Paths;
+package q257_binary_tree_paths;
 
 import common.TreeNode;
 

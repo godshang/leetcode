@@ -1,4 +1,4 @@
-package Q391_Perfect_Rectangle;
+package q391_perfect_rectangle;
 
 import java.util.HashSet;
 import java.util.Objects;

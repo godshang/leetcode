@@ -1,4 +1,4 @@
-package Q328_Odd_Even_Linked_List;
+package q328_odd_even_linked_list;
 
 import common.ListNode;
 import common.Util;

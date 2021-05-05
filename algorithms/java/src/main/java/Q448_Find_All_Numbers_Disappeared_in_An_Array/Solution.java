@@ -1,4 +1,4 @@
-package Q448_Find_All_Numbers_Disappeared_in_An_Array;
+package q448_find_all_numbers_disappeared_in_an_array;
 
 import java.util.ArrayList;
 import java.util.List;

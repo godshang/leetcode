@@ -1,4 +1,4 @@
-package Q138_Copy_List_with_Random_Pointer;
+package q138_copy_list_with_random_pointer;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package Q147_Insertion_Sort_List;
+package q147_insertion_sort_list;
 
 import common.ListNode;
 import common.Util;

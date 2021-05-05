@@ -1,4 +1,4 @@
-package Q1290_Convert_Binary_Number_in_a_Linked_List_to_Integer;
+package q1290_convert_binary_number_in_a_linked_list_to_integer;
 
 import common.ListNode;
 import common.Util;

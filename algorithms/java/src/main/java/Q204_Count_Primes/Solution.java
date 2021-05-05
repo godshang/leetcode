@@ -1,4 +1,4 @@
-package Q204_Count_Primes;
+package q204_count_primes;
 
 public class Solution {
 

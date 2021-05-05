@@ -1,4 +1,4 @@
-package Q297_Serialize_and_Deserialize_Binary_Tree;
+package q297_serialize_and_deserialize_binary_tree;
 
 import common.BTreePrinter;
 import common.TreeNode;

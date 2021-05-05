@@ -1,4 +1,4 @@
-package Q160_Intersection_of_Two_Linked_Lists;
+package q160_intersection_of_two_linked_lists;
 
 import common.ListNode;
 

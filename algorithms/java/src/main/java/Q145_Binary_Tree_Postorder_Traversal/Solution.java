@@ -1,4 +1,4 @@
-package Q145_Binary_Tree_Postorder_Traversal;
+package q145_binary_tree_postorder_traversal;
 
 import common.TreeNode;
 

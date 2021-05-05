@@ -1,4 +1,4 @@
-package Q54_Spiral_Matrix;
+package q54_spiral_matrix;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Q128_Longest_Consecutive_Sequence;
+package q128_longest_consecutive_sequence;
 
 import java.util.HashSet;
 import java.util.Set;

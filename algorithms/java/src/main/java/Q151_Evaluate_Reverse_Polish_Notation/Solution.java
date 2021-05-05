@@ -1,4 +1,4 @@
-package Q151_Evaluate_Reverse_Polish_Notation;
+package q151_evaluate_reverse_polish_notation;
 
 import java.util.Stack;
 

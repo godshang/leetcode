@@ -1,4 +1,4 @@
-package Q1_Two_Sum;
+package q1_two_sum;
 
 import java.util.HashMap;
 import java.util.Map;

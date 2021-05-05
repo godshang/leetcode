@@ -1,4 +1,4 @@
-package Q518_Coin_Change_2;
+package q518_coin_change_2;
 
 public class Solution {
 

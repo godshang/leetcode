@@ -1,4 +1,4 @@
-package Q341_Flatten_Nested_List_Iterator;
+package q341_flatten_nested_list_iterator;
 
 import java.util.List;
 

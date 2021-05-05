@@ -1,4 +1,4 @@
-package Q739_Daily_Temperatures;
+package q739_daily_temperatures;
 
 import common.Util;
 

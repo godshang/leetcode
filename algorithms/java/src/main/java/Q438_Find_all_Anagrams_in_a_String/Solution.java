@@ -1,4 +1,4 @@
-package Q438_Find_all_Anagrams_in_a_String;
+package q438_find_all_anagrams_in_a_string;
 
 import java.util.*;
 

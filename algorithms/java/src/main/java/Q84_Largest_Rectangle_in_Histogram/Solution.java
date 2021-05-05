@@ -1,4 +1,4 @@
-package Q84_Largest_Rectangle_in_Histogram;
+package q84_largest_rectangle_in_histogram;
 
 public class Solution {
 

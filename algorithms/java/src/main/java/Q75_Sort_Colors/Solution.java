@@ -1,4 +1,4 @@
-package Q75_Sort_Colors;
+package q75_sort_colors;
 
 import common.Util;
 

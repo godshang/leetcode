@@ -1,4 +1,4 @@
-package Q622_Design_Circular_Queue;
+package q622_design_circular_queue;
 
 public class MyCircularQueue {
 

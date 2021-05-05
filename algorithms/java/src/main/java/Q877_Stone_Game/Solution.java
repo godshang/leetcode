@@ -1,4 +1,4 @@
-package Q877_Stone_Game;
+package q877_stone_game;
 
 public class Solution {
 

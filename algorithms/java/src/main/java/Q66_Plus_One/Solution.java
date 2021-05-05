@@ -1,4 +1,4 @@
-package Q66_Plus_One;
+package q66_plus_one;
 
 import common.Util;
 

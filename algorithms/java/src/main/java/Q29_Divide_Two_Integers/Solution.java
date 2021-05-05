@@ -1,4 +1,4 @@
-package Q29_Divide_Two_Integers;
+package q29_divide_two_integers;
 
 public class Solution {
 

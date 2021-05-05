@@ -1,4 +1,4 @@
-package Q91_Decode_Ways;
+package q91_decode_ways;
 
 public class Solution {
 

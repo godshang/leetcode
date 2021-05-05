@@ -1,4 +1,4 @@
-package Q21_Merge_Two_Sorted_Lists;
+package q21_merge_two_sorted_lists;
 
 import common.ListNode;
 

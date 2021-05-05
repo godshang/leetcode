@@ -1,4 +1,4 @@
-package Q876_Middle_of_The_Linked_List;
+package q876_middle_of_the_linked_list;
 
 import common.ListNode;
 import common.Util;

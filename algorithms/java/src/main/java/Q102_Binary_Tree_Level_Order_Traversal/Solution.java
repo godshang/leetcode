@@ -1,4 +1,4 @@
-package Q102_Binary_Tree_Level_Order_Traversal;
+package q102_binary_tree_level_order_traversal;
 
 import common.TreeNode;
 import common.Util;

@@ -1,4 +1,4 @@
-package Q190_Reverse_Bits;
+package q190_reverse_bits;
 
 public class Solution {
 

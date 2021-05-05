@@ -1,4 +1,4 @@
-package Q712_Minimum_Aascii_Delete_Sum_for_Two_Strings;
+package q712_minimum_aascii_delete_sum_for_two_strings;
 
 import java.util.Arrays;
 

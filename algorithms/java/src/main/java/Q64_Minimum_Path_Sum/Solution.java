@@ -1,4 +1,4 @@
-package Q64_Minimum_Path_Sum;
+package q64_minimum_path_sum;
 
 public class Solution {
 

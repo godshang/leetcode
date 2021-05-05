@@ -1,4 +1,4 @@
-package Q236_Lowest_Common_Ancestor_of_a_Binary_Tree;
+package q236_lowest_common_ancestor_of_a_binary_tree;
 
 import common.TreeNode;
 

@@ -1,4 +1,4 @@
-package Q70_Climbing_Stairs;
+package q70_climbing_stairs;
 
 import java.util.HashMap;
 import java.util.Map;

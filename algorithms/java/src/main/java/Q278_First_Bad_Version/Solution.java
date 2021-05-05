@@ -1,4 +1,4 @@
-package Q278_First_Bad_Version;
+package q278_first_bad_version;
 
 public class Solution extends VersionControl {
 

@@ -1,4 +1,4 @@
-package Q378_kth_Smallest_Element_in_a_Sorted_Matrix;
+package q378_kth_smallest_element_in_a_sorted_matrix;
 
 public class Solution {
 

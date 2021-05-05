@@ -1,4 +1,4 @@
-package Q76_Minimum_Window_Substring;
+package q76_minimum_window_substring;
 
 import java.util.HashMap;
 import java.util.Map;

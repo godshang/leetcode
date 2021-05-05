@@ -1,4 +1,4 @@
-package Q173_Binary_Search_Tree_Iterator;
+package q173_binary_search_tree_iterator;
 
 import common.TreeNode;
 

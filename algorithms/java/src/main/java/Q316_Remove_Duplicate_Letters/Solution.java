@@ -1,4 +1,4 @@
-package Q316_Remove_Duplicate_Letters;
+package q316_remove_duplicate_letters;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

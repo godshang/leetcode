@@ -1,4 +1,4 @@
-package Q430_Flatte_a_Multilevel_Doubly_Linked_List;
+package q430_flatte_a_multilevel_doubly_linked_list;
 
 class Node {
     public int val;

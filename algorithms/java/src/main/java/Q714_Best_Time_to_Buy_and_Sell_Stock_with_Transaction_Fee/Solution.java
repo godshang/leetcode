@@ -1,4 +1,4 @@
-package Q714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee;
+package q714_best_time_to_buy_and_sell_stock_with_transaction_fee;
 
 public class Solution {
 

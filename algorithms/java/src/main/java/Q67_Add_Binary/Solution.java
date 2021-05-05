@@ -1,4 +1,4 @@
-package Q67_Add_Binary;
+package q67_add_binary;
 
 public class Solution {
 

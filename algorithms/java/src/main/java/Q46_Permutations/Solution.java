@@ -1,4 +1,4 @@
-package Q46_Permutations;
+package q46_permutations;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

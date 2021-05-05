@@ -1,4 +1,4 @@
-package Q119_Pascals_Triangle_II;
+package q119_pascals_triangle_ii;
 
 import java.util.ArrayList;
 import java.util.List;

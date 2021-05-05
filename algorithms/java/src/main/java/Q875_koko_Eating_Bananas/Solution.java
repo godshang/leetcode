@@ -1,4 +1,4 @@
-package Q875_koko_Eating_Bananas;
+package q875_koko_eating_bananas;
 
 public class Solution {
 

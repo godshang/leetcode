@@ -1,4 +1,4 @@
-package Q8_String_to_Integer;
+package q8_string_to_integer;
 
 public class Solution {
 

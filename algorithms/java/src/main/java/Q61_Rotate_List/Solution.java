@@ -1,4 +1,4 @@
-package Q61_Rotate_List;
+package q61_rotate_list;
 
 import common.ListNode;
 import common.Util;

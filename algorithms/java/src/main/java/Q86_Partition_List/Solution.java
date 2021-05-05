@@ -1,4 +1,4 @@
-package Q86_Partition_List;
+package q86_partition_list;
 
 import common.ListNode;
 import common.Util;

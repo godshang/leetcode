@@ -1,4 +1,4 @@
-package Q108_Convert_Sorted_Array_to_Binary_Search_Tree;
+package q108_convert_sorted_array_to_binary_search_tree;
 
 import common.BTreePrinter;
 import common.TreeNode;

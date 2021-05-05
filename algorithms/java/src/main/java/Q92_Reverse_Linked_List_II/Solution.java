@@ -1,4 +1,4 @@
-package Q92_Reverse_Linked_List_II;
+package q92_reverse_linked_list_ii;
 
 import common.ListNode;
 import common.Util;

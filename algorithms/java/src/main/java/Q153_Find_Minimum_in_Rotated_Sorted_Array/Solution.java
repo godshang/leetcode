@@ -1,4 +1,4 @@
-package Q153_Find_Minimum_in_Rotated_Sorted_Array;
+package q153_find_minimum_in_rotated_sorted_array;
 
 public class Solution {
 

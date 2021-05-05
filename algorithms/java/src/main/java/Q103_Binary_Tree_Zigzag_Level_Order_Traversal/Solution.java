@@ -1,4 +1,4 @@
-package Q103_Binary_Tree_Zigzag_Level_Order_Traversal;
+package q103_binary_tree_zigzag_level_order_traversal;
 
 import common.TreeNode;
 import common.Util;

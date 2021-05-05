@@ -1,4 +1,4 @@
-package Q384_Shuffle_an_Array;
+package q384_shuffle_an_array;
 
 import common.Util;
 

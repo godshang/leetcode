@@ -1,4 +1,4 @@
-package Q23_Merge_k_Sorted_Lists;
+package q23_merge_k_sorted_lists;
 
 import common.ListNode;
 

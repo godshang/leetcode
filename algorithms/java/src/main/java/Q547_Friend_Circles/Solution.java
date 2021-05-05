@@ -1,4 +1,4 @@
-package Q547_Friend_Circles;
+package q547_friend_circles;
 
 import common.UF;
 

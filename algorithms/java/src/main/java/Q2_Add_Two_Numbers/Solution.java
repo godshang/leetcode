@@ -1,4 +1,4 @@
-package Q2_Add_Two_Numbers;
+package q2_add_two_numbers;
 
 import common.ListNode;
 

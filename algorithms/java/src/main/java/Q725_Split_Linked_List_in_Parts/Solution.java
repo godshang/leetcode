@@ -1,4 +1,4 @@
-package Q725_Split_Linked_List_in_Parts;
+package q725_split_linked_list_in_parts;
 
 import common.ListNode;
 import common.Util;

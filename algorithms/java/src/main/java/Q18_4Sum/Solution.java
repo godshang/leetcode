@@ -1,4 +1,4 @@
-package Q18_4Sum;
+package q18_4sum;
 
 import java.util.ArrayList;
 import java.util.Arrays;

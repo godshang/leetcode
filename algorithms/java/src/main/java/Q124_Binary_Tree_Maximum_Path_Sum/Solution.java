@@ -1,4 +1,4 @@
-package Q124_Binary_Tree_Maximum_Path_Sum;
+package q124_binary_tree_maximum_path_sum;
 
 import common.TreeNode;
 

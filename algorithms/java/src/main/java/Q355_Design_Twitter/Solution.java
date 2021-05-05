@@ -1,4 +1,4 @@
-package Q355_Design_Twitter;
+package q355_design_twitter;
 
 public class Solution {
 

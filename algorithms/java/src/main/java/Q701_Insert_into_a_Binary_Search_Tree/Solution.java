@@ -1,4 +1,4 @@
-package Q701_Insert_into_a_Binary_Search_Tree;
+package q701_insert_into_a_binary_search_tree;
 
 import common.BTreePrinter;
 import common.TreeNode;

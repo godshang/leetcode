@@ -1,4 +1,4 @@
-package Q449_Serialize_and_Deserialize_Bst;
+package q449_serialize_and_deserialize_bst;
 
 import common.BTreePrinter;
 import common.TreeNode;

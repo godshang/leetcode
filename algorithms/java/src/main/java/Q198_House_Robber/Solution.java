@@ -1,4 +1,4 @@
-package Q198_House_Robber;
+package q198_house_robber;
 
 public class Solution {
 

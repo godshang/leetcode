@@ -1,4 +1,4 @@
-package Q710_Random_Pick_with_Blacklist;
+package q710_random_pick_with_blacklist;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package Q382_Linked_List_Random_Node;
+package q382_linked_list_random_node;
 
 import common.ListNode;
 import common.Util;

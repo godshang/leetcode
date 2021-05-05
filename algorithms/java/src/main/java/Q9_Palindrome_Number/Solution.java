@@ -1,4 +1,4 @@
-package Q9_Palindrome_Number;
+package q9_palindrome_number;
 
 public class Solution {
 

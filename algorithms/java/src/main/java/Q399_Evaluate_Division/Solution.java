@@ -1,4 +1,4 @@
-package Q399_Evaluate_Division;
+package q399_evaluate_division;
 
 import common.Util;
 

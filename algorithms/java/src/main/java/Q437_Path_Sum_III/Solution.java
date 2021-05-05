@@ -1,4 +1,4 @@
-package Q437_Path_Sum_III;
+package q437_path_sum_iii;
 
 import common.TreeNode;
 import common.Util;

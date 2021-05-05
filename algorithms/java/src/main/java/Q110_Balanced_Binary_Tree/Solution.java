@@ -1,4 +1,4 @@
-package Q110_Balanced_Binary_Tree;
+package q110_balanced_binary_tree;
 
 import common.TreeNode;
 

@@ -1,4 +1,4 @@
-package Q117_Populating_Next_Right_Pointers_in_Each_Node_II;
+package q117_populating_next_right_pointers_in_each_node_ii;
 
 import java.util.LinkedList;
 import java.util.Queue;

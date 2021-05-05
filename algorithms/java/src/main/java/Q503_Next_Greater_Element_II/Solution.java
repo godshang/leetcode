@@ -1,4 +1,4 @@
-package Q503_Next_Greater_Element_II;
+package q503_next_greater_element_ii;
 
 import common.Util;
 

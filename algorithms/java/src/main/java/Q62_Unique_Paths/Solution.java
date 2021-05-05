@@ -1,4 +1,4 @@
-package Q62_Unique_Paths;
+package q62_unique_paths;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package Q24_Swap_Nodes_in_Pairs;
+package q24_swap_nodes_in_pairs;
 
 import common.ListNode;
 

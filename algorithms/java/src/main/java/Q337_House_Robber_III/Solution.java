@@ -1,4 +1,4 @@
-package Q337_House_Robber_III;
+package q337_house_robber_iii;
 
 import common.TreeNode;
 

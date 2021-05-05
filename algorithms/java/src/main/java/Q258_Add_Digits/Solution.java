@@ -1,4 +1,4 @@
-package Q258_Add_Digits;
+package q258_add_digits;
 
 public class Solution {
 

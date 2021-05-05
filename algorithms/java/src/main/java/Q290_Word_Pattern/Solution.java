@@ -1,4 +1,4 @@
-package Q290_Word_Pattern;
+package q290_word_pattern;
 
 import java.util.HashMap;
 import java.util.Map;

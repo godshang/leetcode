@@ -1,4 +1,4 @@
-package Q429_N_Ary_Tree_Level_Order_Traversal;
+package q429_n_ary_tree_level_order_traversal;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package Q704_Binary_Search;
+package q704_binary_search;
 
 public class Solution {
 

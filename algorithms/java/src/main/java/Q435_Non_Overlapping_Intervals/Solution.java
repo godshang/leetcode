@@ -1,4 +1,4 @@
-package Q435_Non_Overlapping_Intervals;
+package q435_non_overlapping_intervals;
 
 import java.util.Arrays;
 import java.util.Comparator;

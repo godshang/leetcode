@@ -1,4 +1,4 @@
-package Q22_Generate_Parentheses;
+package q22_generate_parentheses;
 
 import java.util.ArrayList;
 import java.util.List;

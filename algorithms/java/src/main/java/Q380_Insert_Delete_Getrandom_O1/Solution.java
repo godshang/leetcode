@@ -1,4 +1,4 @@
-package Q380_Insert_Delete_Getrandom_O1;
+package q380_insert_delete_getrandom_o1;
 
 public class Solution {
 

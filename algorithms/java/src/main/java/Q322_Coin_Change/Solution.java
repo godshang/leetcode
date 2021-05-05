@@ -1,4 +1,4 @@
-package Q322_Coin_Change;
+package q322_coin_change;
 
 import java.util.Arrays;
 import java.util.HashMap;

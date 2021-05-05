@@ -1,4 +1,4 @@
-package Q752_Open_the_Lock;
+package q752_open_the_lock;
 
 import java.util.HashSet;
 import java.util.LinkedList;

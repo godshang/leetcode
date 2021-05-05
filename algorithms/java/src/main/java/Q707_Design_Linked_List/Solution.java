@@ -1,4 +1,4 @@
-package Q707_Design_Linked_List;
+package q707_design_linked_list;
 
 import common.ListNode;
 

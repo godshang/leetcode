@@ -1,4 +1,4 @@
-package Q773_Sliding_Puzzle;
+package q773_sliding_puzzle;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package Q312_Burst_Balloons;
+package q312_burst_balloons;
 
 public class Solution {
 

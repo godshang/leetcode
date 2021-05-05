@@ -1,4 +1,4 @@
-package Q200_Number_of_Islands;
+package q200_number_of_islands;
 
 import common.UF;
 

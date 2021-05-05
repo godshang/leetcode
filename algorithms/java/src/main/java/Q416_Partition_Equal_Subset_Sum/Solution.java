@@ -1,4 +1,4 @@
-package Q416_Partition_Equal_Subset_Sum;
+package q416_partition_equal_subset_sum;
 
 public class Solution {
 

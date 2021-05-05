@@ -1,4 +1,4 @@
-package Q12_Sum_Root_to_Leaf_Numbers;
+package q12_sum_root_to_leaf_numbers;
 
 import common.TreeNode;
 

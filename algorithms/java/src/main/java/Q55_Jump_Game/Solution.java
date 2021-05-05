@@ -1,4 +1,4 @@
-package Q55_Jump_Game;
+package q55_jump_game;
 
 public class Solution {
 

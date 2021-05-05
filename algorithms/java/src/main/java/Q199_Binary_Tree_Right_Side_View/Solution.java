@@ -1,4 +1,4 @@
-package Q199_Binary_Tree_Right_Side_View;
+package q199_binary_tree_right_side_view;
 
 import common.TreeNode;
 

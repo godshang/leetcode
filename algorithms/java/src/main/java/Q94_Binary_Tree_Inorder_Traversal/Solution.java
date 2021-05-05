@@ -1,4 +1,4 @@
-package Q94_Binary_Tree_Inorder_Traversal;
+package q94_binary_tree_inorder_traversal;
 
 import common.BTreePrinter;
 import common.TreeNode;

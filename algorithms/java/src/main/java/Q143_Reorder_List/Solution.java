@@ -1,4 +1,4 @@
-package Q143_Reorder_List;
+package q143_reorder_list;
 
 import common.ListNode;
 import common.Util;

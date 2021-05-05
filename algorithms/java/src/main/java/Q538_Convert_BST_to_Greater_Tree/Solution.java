@@ -1,4 +1,4 @@
-package Q538_Convert_BST_to_Greater_Tree;
+package q538_convert_bst_to_greater_tree;
 
 import common.BTreePrinter;
 import common.TreeNode;

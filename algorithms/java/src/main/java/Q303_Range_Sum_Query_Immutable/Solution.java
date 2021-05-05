@@ -1,4 +1,4 @@
-package Q303_Range_Sum_Query_Immutable;
+package q303_range_sum_query_immutable;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package Q56_Merge_Intervals;
+package q56_merge_intervals;
 
 import common.Util;
 

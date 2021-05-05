@@ -1,4 +1,4 @@
-package Q101_Symmetric_Tree;
+package q101_symmetric_tree;
 
 import java.util.LinkedList;
 import java.util.Queue;

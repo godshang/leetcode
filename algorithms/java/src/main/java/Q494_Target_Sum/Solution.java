@@ -1,4 +1,4 @@
-package Q494_Target_Sum;
+package q494_target_sum;
 
 public class Solution {
 

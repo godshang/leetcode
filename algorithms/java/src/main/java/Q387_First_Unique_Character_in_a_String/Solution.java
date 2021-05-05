@@ -1,4 +1,4 @@
-package Q387_First_Unique_Character_in_a_String;
+package q387_first_unique_character_in_a_string;
 
 import java.util.HashMap;
 import java.util.Map;

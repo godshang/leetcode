@@ -1,4 +1,4 @@
-package Q88_Merge_Sorted_Array;
+package q88_merge_sorted_array;
 
 import common.Util;
 

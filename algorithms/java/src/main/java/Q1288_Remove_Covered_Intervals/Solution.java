@@ -1,4 +1,4 @@
-package Q1288_Remove_Covered_Intervals;
+package q1288_remove_covered_intervals;
 
 import java.util.Arrays;
 

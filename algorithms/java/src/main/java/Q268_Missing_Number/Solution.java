@@ -1,4 +1,4 @@
-package Q268_Missing_Number;
+package q268_missing_number;
 
 import javax.swing.*;
 

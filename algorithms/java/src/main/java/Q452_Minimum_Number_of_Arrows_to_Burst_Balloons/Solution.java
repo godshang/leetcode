@@ -1,4 +1,4 @@
-package Q452_Minimum_Number_of_Arrows_to_Burst_Balloons;
+package q452_minimum_number_of_arrows_to_burst_balloons;
 
 import java.util.Arrays;
 import java.util.Comparator;

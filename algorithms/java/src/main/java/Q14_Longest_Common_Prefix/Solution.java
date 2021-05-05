@@ -1,4 +1,4 @@
-package Q14_Longest_Common_Prefix;
+package q14_longest_common_prefix;
 
 public class Solution {
 

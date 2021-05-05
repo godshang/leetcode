@@ -1,4 +1,4 @@
-package Q131_Palindrome_Partitioning;
+package q131_palindrome_partitioning;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package Q560_Subarray_Sum_Equals_K;
+package q560_subarray_sum_equals_k;
 
 import java.util.HashMap;
 import java.util.Map;

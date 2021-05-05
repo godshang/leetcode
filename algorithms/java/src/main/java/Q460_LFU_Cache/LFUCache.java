@@ -1,4 +1,4 @@
-package Q460_LFU_Cache;
+package q460_lfu_cache;
 
 import java.util.HashMap;
 import java.util.LinkedHashSet;

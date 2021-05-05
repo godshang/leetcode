@@ -1,4 +1,4 @@
-package Q33_Search_in_Rotated_Sorted_Array;
+package q33_search_in_rotated_sorted_array;
 
 public class Solution {
 

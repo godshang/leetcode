@@ -1,4 +1,4 @@
-package Q116_Populating_Next_Right_Pointers_in_Each_Node;
+package q116_populating_next_right_pointers_in_each_node;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package Q43_Multiply_Strings;
+package q43_multiply_strings;
 
 
 public class Solution {

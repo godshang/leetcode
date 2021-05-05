@@ -1,4 +1,4 @@
-package Q225_Implement_Stack_using_Queues;
+package q225_implement_stack_using_queues;
 
 import java.util.LinkedList;
 import java.util.Queue;

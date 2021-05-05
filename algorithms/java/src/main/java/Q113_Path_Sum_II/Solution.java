@@ -1,4 +1,4 @@
-package Q113_Path_Sum_II;
+package q113_path_sum_ii;
 
 import common.BTreePrinter;
 import common.TreeNode;

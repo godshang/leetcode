@@ -1,4 +1,4 @@
-package Q148_Sort_List;
+package q148_sort_list;
 
 import common.ListNode;
 import common.Util;

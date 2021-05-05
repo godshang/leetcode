@@ -1,4 +1,4 @@
-package Q412_Fizz_Buzz;
+package q412_fizz_buzz;
 
 import java.util.ArrayList;
 import java.util.List;

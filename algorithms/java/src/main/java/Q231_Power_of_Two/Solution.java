@@ -1,4 +1,4 @@
-package Q231_Power_of_Two;
+package q231_power_of_two;
 
 public class Solution {
 

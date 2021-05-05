@@ -1,4 +1,4 @@
-package Q155_Min_Stack;
+package q155_min_stack;
 
 import java.util.Stack;
 

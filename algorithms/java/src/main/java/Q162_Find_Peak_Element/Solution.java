@@ -1,4 +1,4 @@
-package Q162_Find_Peak_Element;
+package q162_find_peak_element;
 
 public class Solution {
 

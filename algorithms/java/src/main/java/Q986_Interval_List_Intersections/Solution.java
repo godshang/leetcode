@@ -1,4 +1,4 @@
-package Q986_Interval_List_Intersections;
+package q986_interval_list_intersections;
 
 import common.Util;
 

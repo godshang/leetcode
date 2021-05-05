@@ -1,4 +1,4 @@
-package Q969_Pancake_Sorting;
+package q969_pancake_sorting;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Q114_Flatten_Binary_Tree_to_Linked_List;
+package q114_flatten_binary_tree_to_linked_list;
 
 import common.BTreePrinter;
 import common.TreeNode;

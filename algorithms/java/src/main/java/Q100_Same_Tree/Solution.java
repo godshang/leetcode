@@ -1,4 +1,4 @@
-package Q100_Same_Tree;
+package q100_same_tree;
 
 import common.TreeNode;
 

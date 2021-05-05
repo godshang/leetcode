@@ -1,4 +1,4 @@
-package Q34_Find_First_and_Last_Position_of_Element_in_Sorted_Array;
+package q34_find_first_and_last_position_of_element_in_sorted_array;
 
 import common.Util;
 

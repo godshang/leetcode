@@ -1,4 +1,4 @@
-package Q136_Single_Number;
+package q136_single_number;
 
 public class Solution {
 

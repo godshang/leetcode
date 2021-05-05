@@ -1,4 +1,4 @@
-package Q817_Linked_List_Components;
+package q817_linked_list_components;
 
 import common.ListNode;
 import common.Util;

@@ -1,4 +1,4 @@
-package Q85_Maximal_Rectangle;
+package q85_maximal_rectangle;
 
 public class Solution {
 

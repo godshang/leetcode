@@ -1,4 +1,4 @@
-package Q38_Count_and_Say;
+package q38_count_and_say;
 
 public class Solution {
 

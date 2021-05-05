@@ -1,4 +1,4 @@
-package Q887_Super_Egg_Drop;
+package q887_super_egg_drop;
 
 import java.util.Arrays;
 

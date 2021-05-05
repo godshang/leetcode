@@ -1,4 +1,4 @@
-package Q72_Edit_Distance;
+package q72_edit_distance;
 
 public class Solution {
 

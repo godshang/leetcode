@@ -1,4 +1,4 @@
-package Q700_Search_in_a_Binary_Search_Tree;
+package q700_search_in_a_binary_search_tree;
 
 import common.BTreePrinter;
 import common.TreeNode;

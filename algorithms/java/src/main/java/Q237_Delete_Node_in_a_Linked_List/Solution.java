@@ -1,4 +1,4 @@
-package Q237_Delete_Node_in_a_Linked_List;
+package q237_delete_node_in_a_linked_list;
 
 import common.ListNode;
 import common.Util;

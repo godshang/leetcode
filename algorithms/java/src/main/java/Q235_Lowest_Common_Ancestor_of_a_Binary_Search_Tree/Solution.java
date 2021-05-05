@@ -1,4 +1,4 @@
-package Q235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree;
+package q235_lowest_common_ancestor_of_a_binary_search_tree;
 
 import common.BTreePrinter;
 import common.TreeNode;

@@ -51,6 +51,10 @@ public class Util {
         sb.append("]");
         System.out.println(sb.toString());
     }
+    
+    public static void printTree(TreeNode root) {
+        BTreePrinter.printNode(root);
+    }
 
     // ====== Linked list Util ======
 

@@ -1,4 +1,4 @@
-package Q144_Binary_Tree_Preorder_Traversal;
+package q144_binary_tree_preorder_traversal;
 
 import common.TreeNode;
 

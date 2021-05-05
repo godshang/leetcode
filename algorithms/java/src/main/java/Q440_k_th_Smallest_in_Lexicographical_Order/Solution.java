@@ -1,4 +1,4 @@
-package Q440_k_th_Smallest_in_Lexicographical_Order;
+package q440_k_th_smallest_in_lexicographical_order;
 
 public class Solution {
 

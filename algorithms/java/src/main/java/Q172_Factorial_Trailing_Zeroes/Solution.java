@@ -1,4 +1,4 @@
-package Q172_Factorial_Trailing_Zeroes;
+package q172_factorial_trailing_zeroes;
 
 public class Solution {
 

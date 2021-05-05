@@ -1,4 +1,4 @@
-package Q20_Valid_Parentheses;
+package q20_valid_parentheses;
 
 import java.util.Stack;
 

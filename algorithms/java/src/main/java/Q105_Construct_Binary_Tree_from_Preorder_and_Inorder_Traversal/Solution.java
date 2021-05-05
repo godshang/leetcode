@@ -1,4 +1,4 @@
-package Q105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal;
+package q105_construct_binary_tree_from_preorder_and_inorder_traversal;
 
 import common.BTreePrinter;
 import common.TreeNode;
