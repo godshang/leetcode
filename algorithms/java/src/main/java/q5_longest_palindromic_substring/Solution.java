@@ -1,7 +1,5 @@
 package q5_longest_palindromic_substring;
 
-import java.util.Arrays;
-
 public class Solution {
 
     public String longestPalindrome(String s) {
