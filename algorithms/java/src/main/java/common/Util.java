@@ -5,6 +5,14 @@ import java.util.List;
 public class Util {
 
     // ====== Print Util ======
+    
+    public static <T> void printArray(T[] array) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < array.length; i++) {
+            sb.append(array[i]).append(" ");
+        }
+        System.out.println(sb.toString());
+    }
 
     public static void printArray(double[] array) {
         StringBuilder sb = new StringBuilder();
