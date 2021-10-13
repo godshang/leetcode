@@ -26,7 +26,7 @@ public class Solution {
                 break;
             }
             if (i > begin && candidates[i] == candidates[i - 1]) {
-                break;
+                continue;
             }
             list.add(candidates[i]);
             dfs(candidates, target - candidates[i], i + 1, end, res, list);
