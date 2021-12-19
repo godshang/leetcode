@@ -3,6 +3,7 @@ package q354_russian_doll_envelopes;
 import java.awt.*;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Queue;
 
 public class Solution {
 
@@ -43,5 +44,6 @@ public class Solution {
         Solution solution = new Solution();
         int[][] envelopes = {{5, 4}, {6, 4}, {6, 7}, {2, 3}};
         System.out.println(solution.maxEnvelopes(envelopes));
+//        Queue
     }
 }
