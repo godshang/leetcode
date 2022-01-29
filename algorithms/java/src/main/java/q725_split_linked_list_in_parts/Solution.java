@@ -33,7 +33,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        for (ListNode node : solution.splitListToParts(Util.buildList(new int[]{1,2,3,4,5,6,7,8,9,10}), 3)) {
+        for (ListNode node : solution.splitListToParts(Util.buildList(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}), 3)) {
             Util.printList(node);
         }
     }
