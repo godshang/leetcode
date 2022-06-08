@@ -1,37 +1,29 @@
 package q875_koko_eating_bananas;
 
+import java.util.Arrays;
+
 public class Solution {
 
     public int minEatingSpeed(int[] piles, int H) {
-        int left = 1, right = max(piles) + 1;
+        int max = Arrays.stream(piles).max().getAsInt();
+        int left = 1, right = max;
         while (left < right) {
-            int mid = left + (right - left) / 2;
+            int mid = left + right>> 1;
             if (canFiniash(piles, H, mid)) {
                 right = mid;
             } else {
                 left = mid + 1;
             }
         }
-        return left;
+        return right;
     }
 
-    public boolean canFiniash(int[] piles, int H, int k) {
+    private boolean canFiniash(int[] piles, int H, int k) {
         int time = 0;
         for (int pile : piles) {
-            time += timeOf(pile, k);
+            time += Math.ceil(pile * 1.0 / k);
         }
         return time <= H;
-    }
-
-    public int timeOf(int pile, int k) {
-        return (pile / k) + ((pile % k > 0) ? 1 : 0);
-    }
-
-    public int max(int[] piles) {
-        int max = 0;
-        for (int pile : piles)
-            max = Math.max(max, pile);
-        return max;
     }
 
     public static void main(String[] args) {
